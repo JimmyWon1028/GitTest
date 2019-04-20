@@ -1,0 +1,21 @@
+git practice
+=============
+command
+-------
+. git init
+. git add [filename]
+. git add -p [filename] //patch
+. git commit
+. git status
+
+setup
+------
+. git config --global user.name "jimmywon"
+. git config --global user.email "jimmy@oa-rapid.com"
+. git config --global core.editor vim
+. git config --global merge.tool vimdiff
+. git config --global color.ui true
+. git config --global alias.st status
+. git config --global alias.ck checkout 
+. git config --global alias.rst reset HEAD
+. code ~/.gitconfig 
