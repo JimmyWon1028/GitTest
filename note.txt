@@ -2,18 +2,11 @@ git practice
 =============
 command
 -------
-<<<<<<< HEAD
 . git init :創建倉庫
 . git clone <from> :檢出倉庫
 . git add <filename> :添加
   -p [filename] :patch
 . git commit -m "代碼提交信息" :提交到了 HEAD
-=======
-. git init
-. git add [filename]
-  -p  :patch
-. git commit
->>>>>>> 25bec31caa454b3de88526f7b54df3c1d1d8385d
 . git status
 . git push origin [master] :推送改動
 
