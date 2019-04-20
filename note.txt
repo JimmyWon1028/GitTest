@@ -19,3 +19,9 @@ setup
 . git config --global alias.ck checkout 
 . git config --global alias.rst reset HEAD
 . code ~/.gitconfig 
+
+github operation
+================
+. push
+. pull
+. sync
