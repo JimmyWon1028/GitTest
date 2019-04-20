@@ -9,18 +9,11 @@ command
 . git commit -m "代碼提交信息" :提交到了 HEAD
 . git status
 . git push origin [master] :推送改動
+  ex. 
+  git push origin master:new1
+  git push origin :new1  :刪除分支
 
-setup
-------
-. git config --global user.name "jimmywon"
-. git config --global user.email "jimmy@oa-rapid.com"
-. git config --global core.editor vim
-. git config --global merge.tool vimdiff
-. git config --global color.ui true
-. git config --global alias.st status
-. git config --global alias.ck checkout 
-. git config --global alias.rst reset HEAD
-. code ~/.gitconfig 
+. git pull  :更新你的本地倉庫至最新改動
 
 . git log <patch>|<commit>
   -n            :limit number
@@ -33,12 +26,23 @@ setup
 . git diff
   --staged
 
-. git pull
-. git fetch
-
-
 github operation
 ================
 . push
 . pull
 . sync
+
+setup command
+-------------
+. git config --global user.name "jimmywon"
+. git config --global user.email "jimmy@oa-rapid.com"
+. git config --global core.editor vim
+. git config --global merge.tool vimdiff
+. git config --global color.ui true
+. git config --global alias.st status
+. git config --global alias.ck checkout 
+. git config --global alias.rst reset HEAD
+
+other
+-----
+. code ~/.gitconfig :修改git組態
