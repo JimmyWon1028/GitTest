@@ -32,7 +32,7 @@ setup
   --staged
 
 . git pull
-. git getch
+. git fetch
 
 
 github operation
