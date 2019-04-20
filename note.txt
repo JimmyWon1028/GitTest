@@ -20,6 +20,18 @@ setup
 . git config --global alias.rst reset HEAD
 . code ~/.gitconfig 
 
+. git log <patch>|<commit>
+  -n            :limit number
+  --oneline     :view hash & commit summary
+  --status      :view files change
+  --patch       :view lines change
+  -S or --grep  : find modification
+. git show
+
+. git diff
+  --staged
+
+
 github operation
 ================
 . push
