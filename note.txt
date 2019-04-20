@@ -4,7 +4,7 @@ command
 -------
 . git init
 . git add [filename]
-. git add -p [filename] //patch
+  -p  :patch
 . git commit
 . git status
 
@@ -30,6 +30,9 @@ setup
 
 . git diff
   --staged
+
+. git pull
+. git fetch
 
 
 github operation
