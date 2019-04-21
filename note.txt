@@ -4,6 +4,7 @@ command
 -------
 . git init :創建倉庫
 . git clone <from> :檢出倉庫
+  git clone --single-branch --branch <branchname> https://github.com/.../...
 . git add <filename> :添加
   -p [filename] :patch
 . git commit -m "代碼提交信息" :提交到了 HEAD
